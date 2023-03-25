@@ -127,16 +127,19 @@ header{
     border: 1px solid rgb(125,38,38);
 }
 
-
-.section{
+.hero{
+    margin-top: 10vh;
+}
+.hero{
     height: 100vh;
     background-image: url(/asssets/images/header-background.jpg);
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: bottom right;
     background-attachment: fixed;
     background-size: cover;
+}
+.container{
     display: flex;
-
 }
 .heading-container{
     width:95vw;
@@ -149,14 +152,19 @@ header{
 
 
 }
-.main-heading h1{
+.heading{
     font-family: 'Vidaloka', serif;
     color:rgb(125,38,38);
-    font-size: 80px;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 0.8;
-    padding-bottom: 20px;
+    padding: 20px;
+
+}
+
+.main-heading h1{
+    font-size: 80px;
+    padding: 20px;
 
 }
 
@@ -177,7 +185,31 @@ header{
     height: 100vh;
 }
 #about{
-    transition: 0.3s ease-out;
-    scroll-behavior: smooth
+    transition: 1s ease-out;
+    scroll-behavior: smooth;
+    padding: 10vh;
+    padding-top:11vh;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+
+
 }
 
+.poster{
+    margin-left:auto;
+    width:100%;
+}
+
+.feature{
+    font-size: 12px;
+    font-weight: 100;
+    padding:20px;
+    border-bottom: 1px solid rgb(125,38,38);
+    text-align: justify;
+}
+.feature h3{
+    text-align: center;
+    font-size: 35px;
+}
