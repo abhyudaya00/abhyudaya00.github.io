@@ -165,7 +165,6 @@ header{
 .main-heading h1{
     font-size: 80px;
     padding: 20px;
-
 }
 
 .main-heading p{
@@ -218,5 +217,53 @@ h2{
 @media only screen and (max-width: 600px) {
     .decoration{
         display: none;
+    }
+    .main-heading{
+        width:100vw;
+    }
+    .hero{
+        width: 100vw;
+        height:80vh
+    }
+    .container{
+        flex-direction: column;
+    }
+    #about{
+        padding: 2vh;   
+    }
+    .header{
+        padding:0px;
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .logo{
+        height:50px;
+    }
+    .main-heading h1{
+        font-size: 50px;
+        padding: 20px;
+    }
+    .nav-bar{
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .nav-bar a{
+        font-size: 0.7rem;
+        margin:4px;
+    }
+    .button-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    .btn{
+        font-size: 0.7rem;
+        padding: 2px;
+    }
+    #nav-button{
+        margin:0px;
     }
   }
