@@ -132,7 +132,7 @@ header{
 }
 .hero{
     height: 100vh;
-    background-image: url(/asssets/images/header-background.jpg);
+    background-image: url(asssets/images/header-background.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-attachment: fixed;
@@ -213,3 +213,10 @@ h2{
     text-align: center;
     font-size: 35px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .decoration{
+        display: none;
+    }
+  }
