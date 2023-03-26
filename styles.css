@@ -141,6 +141,11 @@ header{
 .container{
     display: flex;
 }
+.flex-item{
+    flex-grow:1;
+    flex-basis: 0;
+
+}
 .heading-container{
     width:95vw;
     display: flex;
@@ -188,11 +193,12 @@ header{
     scroll-behavior: smooth;
     padding: 10vh;
     padding-top:11vh;
+
 }
 h2{
     font-size: 50px;
     text-align: center;
-
+    border-bottom: 1px solid rgb(125,38,38);
 
 }
 
