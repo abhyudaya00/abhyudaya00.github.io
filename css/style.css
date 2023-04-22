@@ -49,6 +49,13 @@
     color: #FFFFFF;
 }
 
+
+.btn-custom:hover{
+    transition: 125ms;
+    box-shadow: 2px 1px 5px 1px #fea622;
+    transform: translate(0px ,-2px);
+}
+
 .btn-square {
     width: 38px;
     height: 38px;
@@ -489,3 +496,5 @@
     padding-right: 0;
     border-right: none;
 }
+
+
